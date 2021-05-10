@@ -1,0 +1,23 @@
+$red: darkred;
+.error {
+    width: 30%;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ccc;
+}
+.error__text {
+    color: $red;
+    border-bottom: 5px solid $red;
+}
+.error__link {
+    font-size: 18px;
+    color: darkslateblue;
+}
+.error__link a {
+    display: inline-block;
+    margin: 2px;
+}
